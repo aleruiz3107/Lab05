@@ -42,6 +42,7 @@
 		8E4B02871D208C450050D50B /* StateMunicipality.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B02861D208C450050D50B /* StateMunicipality.m */; };
 		8E4B028B1D2095DD0050D50B /* cellMunicipality.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B02891D2095DD0050D50B /* cellMunicipality.m */; };
 		8E4B028C1D2095DD0050D50B /* cellMunicipality.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B028A1D2095DD0050D50B /* cellMunicipality.xib */; };
+		8E4B028F1D20B8E00050D50B /* MunicipalityDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B028E1D20B8E00050D50B /* MunicipalityDetails.m */; };
 		8ED9AA2C1D205F7900ADE34F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9AA2B1D205F7900ADE34F /* main.m */; };
 		8ED9AA2F1D205F7900ADE34F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9AA2E1D205F7900ADE34F /* AppDelegate.m */; };
 		8ED9AA321D205F7900ADE34F /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9AA311D205F7900ADE34F /* Home.m */; };
@@ -90,6 +91,8 @@
 		8E4B02881D2095DD0050D50B /* cellMunicipality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellMunicipality.h; sourceTree = "<group>"; };
 		8E4B02891D2095DD0050D50B /* cellMunicipality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellMunicipality.m; sourceTree = "<group>"; };
 		8E4B028A1D2095DD0050D50B /* cellMunicipality.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellMunicipality.xib; sourceTree = "<group>"; };
+		8E4B028D1D20B8E00050D50B /* MunicipalityDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MunicipalityDetails.h; sourceTree = "<group>"; };
+		8E4B028E1D20B8E00050D50B /* MunicipalityDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MunicipalityDetails.m; sourceTree = "<group>"; };
 		8ED9AA271D205F7900ADE34F /* Lab05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab05.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED9AA2B1D205F7900ADE34F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8ED9AA2D1D205F7900ADE34F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -121,6 +124,8 @@
 				8ED9AA311D205F7900ADE34F /* Home.m */,
 				8E4B02851D208C450050D50B /* StateMunicipality.h */,
 				8E4B02861D208C450050D50B /* StateMunicipality.m */,
+				8E4B028D1D20B8E00050D50B /* MunicipalityDetails.h */,
+				8E4B028E1D20B8E00050D50B /* MunicipalityDetails.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -333,6 +338,7 @@
 				8E4B02461D206A610050D50B /* cellHome.m in Sources */,
 				8ED9AA2C1D205F7900ADE34F /* main.m in Sources */,
 				8E4B028B1D2095DD0050D50B /* cellMunicipality.m in Sources */,
+				8E4B028F1D20B8E00050D50B /* MunicipalityDetails.m in Sources */,
 				8E4B02871D208C450050D50B /* StateMunicipality.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

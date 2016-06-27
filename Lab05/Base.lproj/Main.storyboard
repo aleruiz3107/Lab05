@@ -36,10 +36,10 @@
             </objects>
             <point key="canvasLocation" x="121" y="274"/>
         </scene>
-        <!--State Municipality-->
+        <!--StateMunicipality-->
         <scene sceneID="W2J-fC-1dq">
             <objects>
-                <viewController storyboardIdentifier="StateMunicipality" id="6So-Q1-U6F" customClass="StateMunicipality" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StateMunicipality" id="6So-Q1-U6F" userLabel="StateMunicipality" customClass="StateMunicipality" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PNC-jT-h2d">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -58,10 +58,53 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ksv-7d-sbW"/>
+                    <connections>
+                        <segue destination="UOS-pR-7qI" kind="push" identifier="MunicipalityDetails" id="aaR-oC-4rZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WON-q1-Dm9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="504" y="274"/>
+        </scene>
+        <!--MunicipalityDetails-->
+        <scene sceneID="fZ4-1L-2wU">
+            <objects>
+                <viewController storyboardIdentifier="MunicipalityDetails" id="UOS-pR-7qI" userLabel="MunicipalityDetails" customClass="MunicipalityDetails" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ji5-v0-RPB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Municipio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eKc-A8-kBf" userLabel="lblMunicipio">
+                                <rect key="frame" x="20" y="250" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripcion" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BzB-HR-KgK" userLabel="lblMunicipioInfo">
+                                <rect key="frame" x="20" y="280" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ChiPalenque.jpg" id="q0M-hi-jYi" userLabel="imgMunicipality">
+                                <rect key="frame" x="20" y="64" width="280" height="180"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="N2e-rK-8Nn"/>
+                    <connections>
+                        <outlet property="imgMunicipality" destination="q0M-hi-jYi" id="pMv-Ik-o8y"/>
+                        <outlet property="lblMunicipio" destination="eKc-A8-kBf" id="sMM-Cg-hZ8"/>
+                        <outlet property="lblMunicipioInfo" destination="BzB-HR-KgK" id="0ke-xq-ogf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bxl-Qq-zyz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="886" y="274"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="UXa-3R-vpv">
@@ -80,4 +123,7 @@
             <point key="canvasLocation" x="-262" y="274"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ChiPalenque.jpg" width="843" height="563"/>
+    </resources>
 </document>

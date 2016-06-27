@@ -12,6 +12,10 @@
 @property NSMutableArray *MunicipalityTitles;
 @property NSMutableArray *MunicipalityDescription;
 @property NSMutableArray *MunicipalityPhotos;
+
+@property NSString *stTitleSelected;
+@property NSString *stDescriptionSelected;
+@property NSString *stPhotoSelected;
 @end
 
 @implementation StateMunicipality
@@ -105,10 +109,10 @@
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     //-------------------------------------------------------------------------------
-    //self.stTitleSelected        = self.destinationTitles[indexPath.row];
-    //self.stDescriptionSelected  = self.destinationDescriptions[indexPath.row];
-    //self.stPhotoSelected        = self.destinationPhotos[indexPath.row];
-    //[self performSegueWithIdentifier:@"StateMunicipality" sender:self];
+    self.stTitleSelected        = self.MunicipalityTitles[indexPath.row];
+    self.stDescriptionSelected  = self.MunicipalityDescription[indexPath.row];
+    self.stPhotoSelected        = self.MunicipalityPhotos[indexPath.row];
+    [self performSegueWithIdentifier:@"MunicipalityDetails" sender:self];
     
 }
 
@@ -117,12 +121,12 @@
 /**********************************************************************************************/
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
-    //if ([segue.destinationViewController isKindOfClass:[DestinationDetails class]]) {
-    //    DestinationDetails *destination     = [segue destinationViewController];
-    //    destination.destinationTitle        = self.stTitleSelected;
-    //    destination.destinationDescription  = self.stDescriptionSelected;
-    //    destination.destinationPhoto        = self.stPhotoSelected;
-    //}
+    if ([segue.destinationViewController isKindOfClass:[MunicipalityDetails class]]) {
+        MunicipalityDetails *Municipality     = [segue destinationViewController];
+        Municipality.municipalityTitle        = self.stTitleSelected;
+        Municipality.municipalityDescription  = self.stDescriptionSelected;
+        Municipality.municipalityPhoto        = self.stPhotoSelected;
+    }
 }
 
 @end

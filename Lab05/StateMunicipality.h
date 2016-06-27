@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "cellMunicipality.h"
+#import "MunicipalityDetails.h"
 
 @interface StateMunicipality : UIViewController
 @property NSString *StateTitleSelected;

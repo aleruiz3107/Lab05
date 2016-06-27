@@ -7,37 +7,37 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="180" id="KGk-i7-Jjw" userLabel="cellHome" customClass="cellHome">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="180" id="KGk-i7-Jjw" userLabel="cellMunicipality" customClass="cellMunicipality">
             <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
-            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+            <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="320" height="179"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <view contentMode="scaleToFill" id="AcO-6h-zda" userLabel="vHome">
+                    <view contentMode="scaleToFill" id="vda-Ef-7zf" userLabel="vMunicipality">
                         <rect key="frame" x="10" y="0.0" width="300" height="170"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jalisco" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rXH-KK-rfj" userLabel="lblEstado">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guadalajara" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KBY-Ob-cdN" userLabel="lblMunicipality">
                                 <rect key="frame" x="5" y="130" width="290" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visita los municipios de jalisco" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YSw-Fs-aGe" userLabel="lblEstadoInf">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visita Guadalajara" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TFF-A4-Oc4" userLabel="lblMunicipalityInfo">
                                 <rect key="frame" x="5" y="150" width="290" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
-                                <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view alpha="0.10000000000000001" contentMode="scaleToFill" id="9YW-ro-r5V">
+                            <view alpha="0.10000000000000001" contentMode="scaleToFill" id="D1G-G2-j0d">
                                 <rect key="frame" x="0.0" y="0.0" width="300" height="125"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jalisco.jpg" id="G49-Cz-WMY" userLabel="imgEstado">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="JalGuadalajara.jpg" id="k9g-G7-J3I" userLabel="imgMunicipality">
                                 <rect key="frame" x="0.0" y="0.0" width="300" height="125"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                             </imageView>
@@ -48,14 +48,14 @@
                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
             </tableViewCellContentView>
             <connections>
-                <outlet property="imgEstado" destination="G49-Cz-WMY" id="E2V-ZX-gpN"/>
-                <outlet property="lblEstado" destination="rXH-KK-rfj" id="9gU-Ya-gCQ"/>
-                <outlet property="lblEstadoInf" destination="YSw-Fs-aGe" id="BpJ-ZD-dEG"/>
+                <outlet property="imgMunicipality" destination="k9g-G7-J3I" id="1hX-Pb-2pM"/>
+                <outlet property="lblMunicipality" destination="KBY-Ob-cdN" id="o7Z-gr-mQ4"/>
+                <outlet property="lblMunicipalityInfo" destination="TFF-A4-Oc4" id="1e1-nJ-o1P"/>
             </connections>
             <point key="canvasLocation" x="323" y="292"/>
         </tableViewCell>
     </objects>
     <resources>
-        <image name="Jalisco.jpg" width="950" height="434"/>
+        <image name="JalGuadalajara.jpg" width="936" height="526"/>
     </resources>
 </document>

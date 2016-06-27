@@ -12,6 +12,10 @@
 @property NSMutableArray *StateTitles;
 @property NSMutableArray *StateDescription;
 @property NSMutableArray *StatePhotos;
+
+@property NSString *stTitleSelected;
+@property NSString *stDescriptionSelected;
+@property NSString *stPhotoSelected;
 @end
 
 @implementation Home
@@ -69,12 +73,22 @@
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     //-------------------------------------------------------------------------------
-    //self.lblWarriorNames.text  = self.WarriorNames[indexPath.row];
+    self.stTitleSelected        = self.StateTitles[indexPath.row];
+    self.stDescriptionSelected  = self.StateDescription[indexPath.row];
+    self.stPhotoSelected        = self.StatePhotos[indexPath.row];
+    [self performSegueWithIdentifier:@"StateMunicipality" sender:self];
     
-    //if (self.WarriorNames[indexPath.row] != 0){
-    //    self.lblWarriorNames.hidden = NO;
-    //}
+}
+
+/**********************************************************************************************/
+#pragma mark - Navigation
+/**********************************************************************************************/
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
+    if ([segue.destinationViewController isKindOfClass:[StateMunicipality class]]) {
+        StateMunicipality *StateMu     = [segue destinationViewController];
+        StateMu.StateTitleSelected        = self.stTitleSelected;
+    }
 }
 
 @end

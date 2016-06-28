@@ -68,9 +68,9 @@
     }
     else if([self.StateTitleSelected  isEqual:@"Veracruz"]){
         
-        self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Acajete", @"Alvarado", @"Apasapan", @"Catemaco", @"Xalapa", nil];
+        self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Acajete", @"Alvarado", @"Apazapan", @"Catemaco", @"Xalapa", nil];
         
-        self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre Acajete", @"Informacion sobre Alvarado", @"Informacion sobre Apasapan", @"Informacion sobre Catemaco", @"Informacion sobre Xalapa", nil];
+        self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre Acajete", @"Informacion sobre Alvarado", @"Informacion sobre Apazapan", @"Informacion sobre Catemaco", @"Informacion sobre Xalapa", nil];
         
         self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"VerAcajete.jpg", @"VerAlvarado.jpg", @"VerApasapan.jpg", @"VerCatemaco.jpg", @"VerXalapa.jpg", nil];
     }

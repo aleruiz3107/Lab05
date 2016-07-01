@@ -33,11 +33,11 @@
 }
 //-------------------------------------------------------------------------------
 - (void)initController {
-    self.StateTitles   = [[NSMutableArray alloc] initWithObjects: @"Jalisco", @"San Luis Potosi", @"Chiapas", @"Aguascalientes", @"Veracruz", nil];
+    self.StateTitles   = [[NSMutableArray alloc] initWithObjects: @"AGUASCALIENTES", @"CHIHUAHUA", @"PUEBLA", @"SINALOA", @"ZACATECAS", nil];
     
-    self.StateDescription   = [[NSMutableArray alloc] initWithObjects: @"Visita los municipios de Jalisco", @"Visita los municipios de San Luis Potosi", @"Visita los municipios de Chiapas", @"Visita los municipios de Aguascalientes", @"Visita los municipios de Veracruz", nil];
+    self.StateDescription   = [[NSMutableArray alloc] initWithObjects: @"Visita los municipios de Aguascalientes", @"Visita los municipios de Chihuahua", @"Visita los municipios de Puebla", @"Visita los municipios de Sinaloa", @"Visita los municipios de Zacatecas", nil];
     
-    self.StatePhotos   = [[NSMutableArray alloc] initWithObjects: @"Jalisco.jpg", @"San Luis Potosi.jpg", @"Chiapas.jpg", @"Aguascalientes.jpg", @"Veracruz.jpg", nil];
+    self.StatePhotos   = [[NSMutableArray alloc] initWithObjects: @"Aguascalientes.jpg", @"Chihuahua.jpg", @"Puebla.jpg", @"Sinaloa.jpg", @"Zacatecas.jpg", nil];
 
 }
 /**********************************************************************************************/

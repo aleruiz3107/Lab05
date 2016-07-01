@@ -19,81 +19,88 @@
     self.lblMunicipio.text       = self.municipalityTitle;
     self.imgMunicipality.image   = [UIImage imageNamed:self.municipalityPhoto];
     
-    
-    if([self.municipalityTitle  isEqual: @"Guadalajara"]){
-        self.lblMunicipioInfo.text   = @"Guadalajara es una ciudad y municipio mexicano, capital y urbe más poblada del estado de Jalisco. Se localiza en el occidente de México, al centro de Jalisco, en la zona geográfica conocida como Valle de Atemajac.";
+    // Municipios de aguascalientes
+    if([self.municipalityTitle  isEqual: @"Aguascalientes"]){
+        self.lblMunicipioInfo.text   = @"El Municipio de Aguascalientes es uno de los 11 municipios que integran al estado mexicano de Aguascalientes. Su cabecera municipal es la ciudad de Aguascalientes, la cual tambiÈn es la capital del estado.";
     }
-    else if([self.municipalityTitle  isEqual: @"Chapala"]){
-        self.lblMunicipioInfo.text   = @"Chapala es una ciudad mexicana ubicada en el estado de Jalisco, junto al Lago de Chapala, al cual otorga su nombre, es cabecera del mismo nombre.";
-    }
-    else if([self.municipalityTitle  isEqual: @"Cocula"]){
-        self.lblMunicipioInfo.text   = @"Cocula (en náhuatl: Cocollán, ‘lugar ondulado’)? es una ciudad y municipio en el estado mexicano de Jalisco. Se encuentra a 35 millas (56 km) al suroeste de Guadalajara, en México la autopista 80. Se encuentra a una altura de 4.460 pies (1.350 m).";
-    }
-    else if([self.municipalityTitle  isEqual: @"Tapalpa"]){
-        self.lblMunicipioInfo.text   = @"Tapalpa es un municipio y población del estado de Jalisco, México. Se localiza en la Región Sur, aproximadamente a 118 kilómetros de Guadalajara. Su nombre proviene del otomi y significa «Lugar de Tierra de Color», su extensión territorial es de 442.15 km2.";
-    }
-    else if([self.municipalityTitle  isEqual: @"Vallarta"]){
-        self.lblMunicipioInfo.text   = @"Es la segunda zona económica más importante del estado de Jalisco y el tercer puerto más importante de México. Actualmente, es uno de los lugares más visitados del país. El nombre de este hermoso puerto está plasmado en varias canciones populares.";
-    }
-    else if([self.municipalityTitle  isEqual: @"Aquisimon"]){
-        self.lblMunicipioInfo.text   = @"El Municipio de Aquismón es uno de loa 58 municipios en que se divide el estado mexicano de San Luis Potosí, localizado al oriente del estado en la Región Huasteca";
-    }
-    else if([self.municipalityTitle  isEqual: @"Catorce"]){
-        self.lblMunicipioInfo.text   = @"El Municipio de Catorce es uno de los 58 municipios en que se encuentra dividido para su régimen interior el estado mexicano de San Luis Potosí, localizado al norte del estado y su cabecera es Real de Catorce, un antiguo mineral.";
-    }
-    else if([self.municipalityTitle  isEqual: @"El Naranjo"]){
-        self.lblMunicipioInfo.text   = @"El Naranjo es uno de los 58 municipios que constituyen el estado mexicano de San Luis Potosí. Se encuentra localizado al centro oeste del estado y aproximadamente a 173 kilómetros de la ciudad de San Luis Potosí.";
-    }
-    else if([self.municipalityTitle  isEqual: @"Xilitla"]){
-        self.lblMunicipioInfo.text   = @"Xilitla es un municipio ubicado en la región de Huasteca, del estado de San Luis Potosí, México. Recién nombrado «Pueblo mágico» el 12 de diciembre de 2011, por la SECTUR. Es conocido por sus fértiles montañas y manantiales, que crean paisajes increíbles en todo el municipio. Xilitla es un municipio poco industrializado, lo que ha ayudado a preservar las culturas indígenas náhuatl y téenek y sus modos tradicionales de vida. Es famoso por su café y su producción de piloncillo, además de ser el lugar más lluvioso de San Luis Potosí.";
-    }
-    else if([self.municipalityTitle  isEqual: @"Zaragoza"]){
-        self.lblMunicipioInfo.text   = @"Villa de Zaragoza es una ciudad del estado mexicano de San Luis Potosí y cabecera del municipio Zaragoza. Conocida durante muchos años con el nombre de Villa de Zaragoza, cambia a Zaragoza en 1995.";
-    }
-    else if([self.municipalityTitle  isEqual: @"Palenque"]){
-        self.lblMunicipioInfo.text   = @"Palenque es una ciudad del estado mexicano de Chiapas. La ciudad de Palenque es una ciudad de origen maya ubicada en el estado mexicano de Chiapas, cerca del río Usumacinta, y cuyo principal atractivo turístico es la zona arqueológica de Palenque. A pocos kilómetros se encuentran las cascadas de Misol-Ha, Cascadas de Agua Azul y Agua Clara, el río Chacamax (nututun). Es uno de los sitios más impresionantes de esta cultura. En comparación con otras ciudades mayas, se la considera de tamaño mediano: menor que Tikal o Copán, pero destaca por su acervo arquitectónico y escultórico.";
-    }
-    else if([self.municipalityTitle  isEqual: @"Salto De Agua"]){
-        self.lblMunicipioInfo.text   = @"El municipio de Salto de Agua es uno de los 122 municipios que conforman el estado de Chiapas. Abarca una parte del Área de Protección de Flora y Fauna “Cascadas de Agua Azul";
-    }
-    else if([self.municipalityTitle  isEqual: @"San Cristobal De Las Casas"]){
-        self.lblMunicipioInfo.text   = @"San Cristóbal de Las Casas es la cabecera del municipio homónimo en el centro del estado de Chiapas (México). Es el mayor centro urbano de la región de Los Altos de Chiapas y el tercero mayor en el estado, detrás de Tuxtla Gutiérrez y Tapachulaen el Estado Libre y Soberano de Chiapas.";
-    }
-    else if([self.municipalityTitle  isEqual: @"Tapachula"]){
-        self.lblMunicipioInfo.text   = @"Tapachula es una ciudad mexicana en el estado de Chiapas. Se encuentra en la Región del Soconusco. Se encuentra en la Costa Sur de Chiapas, limita al norte con Motozintla, al este con Cacahoatán, Tuxtla Chico, Frontera Hidalgo y Suchiate, al sur con el Océano Pacífico y al oeste con Huehuetán, Mazatán y Tuzantán";
-    }
-    else if([self.municipalityTitle  isEqual: @"Tuxtla"]){
-        self.lblMunicipioInfo.text   = @"Tuxtla Gutiérrez es un municipio del estado mexicano de Chiapas. La cabecera municipal (o localidad Principal) es la Ciudad de Tuxtla Gutiérrez, es también la capital de Chiapas ya que en ella residen los poderes del estado, además de ser la ciudad más importante y más poblada de dicho territorio.";
-    }
-    else if([self.municipalityTitle  isEqual: @"Aguascalientes"]){
-        self.lblMunicipioInfo.text   = @"Aguascalientes es la ciudad capital del estado mexicano de Aguascalientes, así como la cabecera del municipio del mismo nombre. La ciudad se encuentra en la zona centro-sur del estado, en el valle que lleva su mismo nombre. Es parte de la macro región del Bajío. Específicamente del Bajío Occidente.";
+    else if([self.municipalityTitle  isEqual: @"Asientos"]){
+        self.lblMunicipioInfo.text   = @"El municipio de Asientos es mayoritariamente plano, formado por valles, que sin embargo en su parte noroeste tiene una serie de elevaciones importantes que constituyen la Sierra de Asientos, donde se encuentra el Cerro de Altamira y el Cerro San Juan, m·ximas elevaciones de su territorio.";
     }
     else if([self.municipalityTitle  isEqual: @"Calvillo"]){
-        self.lblMunicipioInfo.text   = @"Calvillo es un municipio del estado mexicano de Aguascalientes. Su cabecera municipal lleva el mismo nombre Calvillo y se localiza a 52 kilómetros al poniente de la ciudad de Aguascalientes.";
+        self.lblMunicipioInfo.text   = @"El municipio de Calvillo est· constituido en su mayor parte por un valle que corre en direcciÛn sudoeste, est· enmarcado por la sierra del Laurel en la parte sur y oriente formando el lÌmite estatal con el estado de Jalisco.";
     }
     else if([self.municipalityTitle  isEqual: @"Cosio"]){
-        self.lblMunicipioInfo.text   = @"El municipio de Cosío se localiza al norte del estado de Aguascalientes, México, en las coordenadas 102°18' longitud oeste y 22°22' latitud norte, a una altura de 2.000 metros sobre el nivel del mar. Limita al norte con el estado de Zacatecas, al sur con el municipio de Rincón de Romos, y tanto al oriente como al poniente con el estado de Zacatecas y el municipio de Rincón de Romos.";
+        self.lblMunicipioInfo.text   = @"El municipio de CosÌo, en general, tiene un clima templado estepario con verano c·lido, una temperatura media anual de 15 ∞C, registr·ndose la m·s alta entre los meses de mayo y agosto, y la m·s baja entre diciembre, enero y febrero. La precipitaciÛn pluvial media anual es de 515 milÌmetros.";
     }
-    else if([self.municipalityTitle  isEqual: @"San Jose De Gracia"]){
-        self.lblMunicipioInfo.text   = @"El Municipio de San José de Gracia es uno de los 11 municipios que integran al estado mexicano de Aguascalientes. Su cabecera municipal es la población de San José de Gracia.";
+    else if([self.municipalityTitle  isEqual: @"El Llano"]){
+        self.lblMunicipioInfo.text   = @"Llamado asÌ por que es la unica region en Aguascalientes donde existe un llano. Fue declarado oficialmente como municipio el 30 de enero de 1992. Actualmente Palo Alto, su cabecera principal, se encuentra sobre la antigua construccion de una hacienda, la cual pertenecio como muchas otras, a la familia Rincon Gallardo.";
     }
-    else if([self.municipalityTitle  isEqual: @"Tepezala"]){
-        self.lblMunicipioInfo.text   = @"Tepezalá es una localidad del Estado de Aguascalientes, situado al noreste del estado, y colinda al norte con el Estado de Zacatecas. Está ubicado en las coordenadas geográficas 22º 13' de latitud norte y 102º 10' de longitud Oeste.";
+    // Municipios de Chihuahua
+    else if([self.municipalityTitle  isEqual: @"Chihuahua"]){
+        self.lblMunicipioInfo.text   = @"El Municipio de Chihuahua se encuentra exactamente en el centro del estado, en el fin de la regiÛn denominada como la Meseta y el principio de la llamada sierra, limita al norte con el municipio de Ahumada.";
+    }
+    else if([self.municipalityTitle  isEqual: @"Chinipas"]){
+        self.lblMunicipioInfo.text   = @"ChÌnipas est· situada en la regiÛn de las caÒadas al occidente de la Sierra Madre Occidental, cercana a los lÌmites de Chihuahua con los estado de Sinaloa y Sonora, fue fundada como un pueblo de misiÛn por los sacerdotes jesuitas Pedro Juan Castini y Julio Pascual el 31 de diciembre de 1626.";
+    }
+    else if([self.municipalityTitle  isEqual: @"Delicias"]){
+        self.lblMunicipioInfo.text   = @"Delicias es el municipio m·s pequeÒo del estado de Chihuahua, teniendo una extensiÛn territorio de 335.43 kilÛmetros cuadrados, se encuentra en la zona centro del estado, colinda al norte con el municipio de Meoqui y con el municipio de Rosales y al sur con el municipio de Saucillo.";
+    }
+    else if([self.municipalityTitle  isEqual: @"Galeana"]){
+        self.lblMunicipioInfo.text   = @"El municipio de Galeana se localiza en la zona noroeste del estado de Chihuahua, en una regiÛn fundamentalmente desÈrtica, tiene una extensiÛn total de 1,529 kilÛmetros cuadrados y una altitud promedio de 1,430 metros sobre el nivel del mar.";
+    }
+    else if([self.municipalityTitle  isEqual: @"Santa Isabel"]){
+        self.lblMunicipioInfo.text   = @"La poblaciÛn de Santa Isabel fue fundada el aÒo de 1668 por religiosos franciscanos con el nombre de Santa Isabel de Tarahumares, por ser Èstos la principal etnia que habitaba en la regiÛn; Santa Isabel se encontraba en el lÌmite entre las misiones franciscanas (asentadas en la zona de la meseta y el desierto de Chihuahua) y las jesuitas (que se localizaban en la Sierra).";
+    }
+    
+    // Municipios de Puebla
+    else if([self.municipalityTitle  isEqual: @"Puebla"]){
+        self.lblMunicipioInfo.text   = @"El territorio municipal de Puebla es muy variado en su relieve y se encuentra dominado tanto por elevaciones importantes como por el Valle de Puebla-Tlaxcala en donde se asienta en su mayor parte la cabecera municipal.";
+    }
+    else if([self.municipalityTitle  isEqual: @"Ocotepec"]){
+        self.lblMunicipioInfo.text   = @"Ocotepec (en nahuatl: ocotl, tepetl, c, ëocote, cerro, eníëOcote en el cerroí) es uno de los 217 municipios que conforman al estado mexicano de Puebla. Fue fundado en 1895 y su cabecera es la ciudad de Ocotepec.";
     }
     else if([self.municipalityTitle  isEqual: @"Acajete"]){
-        self.lblMunicipioInfo.text   = @"El municipio de Acajete se ubica en la zona centro del estado de Veracruz. Sus límites son: al norte con Tlacolulan y Las Vigas de Ramírez, al este con Rafael Lucio, al sur con Tlalnelhuayocan y al oeste con Perote. Su distancia aproximada por carretera a la capital del estado es de 15 km.";
+        self.lblMunicipioInfo.text   = @"Los habitantes de Acajete se dedican principalmente a la siembra y cultivo de maÌz, frijol, durazno, capulin, calabaza, entre otros productos caracterÌsticos de la poblaciÛn. AsÌ como a las actividades de construcciÛn (albaÒileria, plomeria, herreria y carpinterÌa).";
     }
-    else if([self.municipalityTitle  isEqual: @"Alvarado"]){
+    else if([self.municipalityTitle  isEqual: @"Tlahuapan"]){
+        self.lblMunicipioInfo.text   = @"El municipio de Tlahuapan se encuentra localizado en el centro oeste del estado, fronterizo con los estados de MÈxico y de Tlaxcala y en las faldas de la Sierra Nevada.";
+    }
+    else if([self.municipalityTitle  isEqual: @"Zacatlan"]){
+        self.lblMunicipioInfo.text   = @"El territorio del municipio fue originalmente habitado por distintas tribus como los otomÌes, toltecas y chichimecas sin que ninguna de ellas se asentara definitivamente. La primera poblaciÛn estable fue Otlatlan, fundada en las cercanÌas de la ciudad de Zacatlan por la tribu zacateca, que llegÛ al territorio huyendo de la tribu Teochichimeca.";
+    }
+    
+    // Municipios de Sinaloa
+    else if([self.municipalityTitle  isEqual: @"Culiacan"]){
+        self.lblMunicipioInfo.text   = @"El Municipio de Culiacan, capital del estado sinaloense, es uno de los 18 municipios en que se encuentra dividido el estado mexicano de Sinaloa.";
+    }
+    else if([self.municipalityTitle  isEqual: @"Sinaloa"]){
+        self.lblMunicipioInfo.text   = @"Sinaloa es el municipio epÛnimo del estado mexicano en el que se encuentra. Se ubica al norte del estado, limita al norte con los municipios de El Fuerte y Choix; al sur con los de Salvador Alvarado, Mocorito y Badiraguato; al poniente con el de Guasave y al oriente con el estado de Chihuahua. Su cabecera municipal es la Villa de Sinaloa de Leyva.";
+    }
+    else if([self.municipalityTitle  isEqual: @"Mazatlan"]){
+        self.lblMunicipioInfo.text   = @"El municipio de Mazatlan es uno de los municipios del estado mexicano de Sinaloa, se localiza en la parte sur del estado.";
+    }
+    else if([self.municipalityTitle  isEqual: @"Angostura"]){
+        self.lblMunicipioInfo.text   = @"En 1916, Angostura nace como municipio por la importancia econÛmica que habÌa logrado por medio de su agricultura. El General ¡ngel Flores, gobernador del estado, apoyÛ la solicitud de los vecinos que querÌan formar su propio municipio y dejar de pertenecer a la directorÌa de Mocorito.";
+    }
+    else if([self.municipalityTitle  isEqual: @"Concordia"]){
+        self.lblMunicipioInfo.text   = @"El municipio de Concordia se ubica en la parte sur del estado, y limita al norte con el municipio de Mazatl·n, al sur con el municipio de Rosario, al este con el estado de Durango, y al oeste con los municipios de Mazatlan y Rosario. ";
+    }
+    
+    // Municipios de Zacatecas
+    else if([self.municipalityTitle  isEqual: @"Zacatecas"]){
+        self.lblMunicipioInfo.text   = @"El Municipio de Zacatecas es uno de los 58 municipios del estado de Zacatecas, MÈxico. La cabecera municipal es la capital del estado, la ciudad de Zacatecas.";
+    }
+    else if([self.municipalityTitle  isEqual: @"Villa Hidalgo"]){
         self.lblMunicipioInfo.text   = @"Alvarado es una ciudad localizada en el estado de Veracruz de Ignacio de la Llave en México. Su extensión territorial limita al norte con el municipio de Boca del Río y por ello forma parte de la Zona Metropolitana de Veracruz.";
     }
-    else if([self.municipalityTitle  isEqual: @"Apazapan"]){
-        self.lblMunicipioInfo.text   = @"Apazapan se ubica en la zona central del Estado de Veracruz, presentando irregularidades en el suelo, recorrido por la barranca de Apazapan. Limita al norte con Emiliano Zapata, al sur con Puente Nacional y Tlaltetela, al este con Emiliano Zapata y Puente Nacional y al oeste con Jalcomulco.";
+    else if([self.municipalityTitle  isEqual: @"Trancoso"]){
+        self.lblMunicipioInfo.text   = @"En la historia del municipio han existido algunas personas que destacaron por su colaboraciÛn en el desarrollo de este en ·reas como el desarrollo social, la educaciÛn, entre otros.";
     }
-    else if([self.municipalityTitle  isEqual: @"Catemaco"]){
-        self.lblMunicipioInfo.text   = @"El municipio de Catemaco se encuentra en las inmediaciones de un cuerpo lacustre homónimo, la Laguna de Catemaco que es una de las principales atracciones turísticas, por sus especialidades gastronómicas lacustres (tegogolos, topotes, mojarras de Catemaco y varias especies endémicas de peces), así como por ser un centro importante de la tradición ancestral de la brujería.";
+    else if([self.municipalityTitle  isEqual: @"Fresnillo"]){
+        self.lblMunicipioInfo.text   = @"Fresnillo (del latÌn Fraxinus) es uno de los 58 municipios del estado de Zacatecas, MÈxico. La cabecera municipal es la ciudad de Fresnillo de Gonz·lez EcheverrÌa.";
     }
-    else if([self.municipalityTitle  isEqual: @"Xalapa"]){
-        self.lblMunicipioInfo.text   = @"Xalapa-Enríquez, conocida comúnmente como Xalapa o Jalapa, es una ciudad mexicana, cabecera del municipio del mismo nombre y capital del estado de Veracruz de Ignacio de la Llave. Es conocida coloquialmente como La Atenas veracruzana3 y La ciudad de las flores.";
+    else if([self.municipalityTitle  isEqual: @"Guadalupe"]){
+        self.lblMunicipioInfo.text   = @"Guadalupe surgiÛ en consecuencia al descubrimiento de las minas de Zacatecas en el siglo XVI, con el establecimiento de haciendas que producirÌan los principales abastos y beneficiarÌan los metales del real minero.";
     }
         
         

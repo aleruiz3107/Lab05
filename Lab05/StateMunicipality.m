@@ -34,45 +34,45 @@
 }
 //-------------------------------------------------------------------------------
 - (void)initController {
-    if([self.StateTitleSelected  isEqual: @"Jalisco"]){
+    if([self.StateTitleSelected  isEqual: @"AGUASCALIENTES"]){
         
-    self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Guadalajara", @"Chapala", @"Cocula", @"Tapalpa", @"Vallarta", nil];
+    self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Aguascalientes", @"Asientos", @"Calvillo", @"Cosio", @"El Llano", nil];
     
-    self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre Guadalajara", @"Informacion sobre Chapala", @"Informacion sobre Cocula", @"Informacion sobre Tapalpa", @"Informacion sobre Vallarta", nil];
+    self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre Aguascalientes", @"Informacion sobre Asientos", @"Informacion sobre Calvillo", @"Informacion sobre Cosio", @"Informacion sobre El Llano", nil];
     
-    self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"JalGuadalajara.jpg", @"JalChapala.jpg", @"JalCocula.jpg", @"JalTapalpa.jpg", @"JalVallarta.jpg", nil];
+    self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"Agu_Aguascalientes", @"Agu_Asientos.jpg", @"Agu_Calvillo.jpg", @"Agu_Cosio.jpg", @"Agu_ElLlano.jpg", nil];
     }
-    else if([self.StateTitleSelected  isEqual: @"San Luis Potosi"]){
+    else if([self.StateTitleSelected  isEqual: @"CHIHUAHUA"]){
         
-        self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Aquisimon", @"Catorce", @"El Naranjo", @"Xilitla", @"Zaragoza", nil];
+        self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Chihuahua", @"Chinipas", @"Delicias", @"Galeana", @"Santa Isabel", nil];
         
-        self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre Aquisimon", @"Informacion sobre Catorce", @"Informacion sobre El Naranjo", @"Informacion sobre Xilitla", @"Informacion sobre Zaragoza", nil];
+        self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre Chihuahua", @"Informacion sobre Chinipas", @"Informacion sobre Delicias", @"Informacion sobre Galeana", @"Informacion sobre Santa Isabel", nil];
         
-        self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"SLAquismon.jpg", @"SLCatorce.jpg", @"SLElnaranjo.jpg", @"SLXilitla.jpg", @"SLZaragoza.jpg", nil];
+        self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"Chi_Chihuahua.jpg", @"Chi_Chinipas.jpg", @"Chi_Delicias.jpg", @"Chi_Galeana.jpg", @"Chi_SantaIsabel.jpg", nil];
     }
-    else if([self.StateTitleSelected  isEqual: @"Chiapas"]){
+    else if([self.StateTitleSelected  isEqual: @"PUEBLA"]){
         
-        self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Palenque", @"Salto De Agua", @"San Cristobal De Las Casas", @"Tapachula", @"Tuxtla", nil];
+        self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Puebla", @"Ocotepec", @"Acajete", @"Tlahuapan", @"Zacatlan", nil];
         
-        self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre Palenque", @"Informacion sobre Salto De Agua", @"Informacion sobre San Cristobal De Las Casas", @"Informacion sobre Tapachula", @"Informacion sobre Tuxtla", nil];
+        self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre Puebla", @"Informacion sobre Ocotepec", @"Informacion sobre Acajete", @"Informacion sobre Tlahuapan", @"Informacion sobre Zacatlan", nil];
         
-        self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"ChiPalenque.jpg", @"ChiSaltoDeAgua.jpg", @"ChiSanCristobalDeLasCasas.jpg", @"ChiTapachula.jpg", @"ChiTuxtla.jpg", nil];
+        self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"Pue_Puebla.jpg", @"Pue_Ocotepec.jpg", @"Pue_Acajete.jpg", @"Pue_Tlahuapan.jpg", @"Pue_Zacatlan.jpg", nil];
     }
-    else if([self.StateTitleSelected  isEqual:@"Aguascalientes"]){
+    else if([self.StateTitleSelected  isEqual:@"SINALOA"]){
         
-        self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Aguascalientes", @"Calvillo", @"Cosio", @"San Jose De Gracia", @"Tepezala", nil];
+        self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Culiacan", @"Sinaloa", @"Mazatlan", @"Angostura", @"Concordia", nil];
         
-        self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre Aguascalientes", @"Informacion sobre Calvillo", @"Informacion sobre Cosio", @"Informacion sobre San Jose De Gracia", @"Informacion sobre Tepezala", nil];
+        self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre Culiacan", @"Informacion sobre Sinaloa", @"Informacion sobre Mazatlan", @"Informacion sobre Angostura", @"Informacion sobre Concordia", nil];
         
-        self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"AguascalientesAguascalientes.jpg", @"AguCalvillo.jpg", @"AguCosio.jpg", @"AguSanJoseDeGracia.jpg", @"AguTepezala.jpg", nil];
+        self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"Sina_Culiacan.jpg", @"Sina_Sinaloa.jpg", @"Sina_Mazatlan.jpg", @"Sina_Angostura.jpg", @"Sina_Concordia.jpg", nil];
     }
-    else if([self.StateTitleSelected  isEqual:@"Veracruz"]){
+    else if([self.StateTitleSelected  isEqual:@"ZACATECAS"]){
         
-        self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Acajete", @"Alvarado", @"Apazapan", @"Catemaco", @"Xalapa", nil];
+        self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Zacatecas", @"Villa Hidalgo", @"Trancoso", @"Fresnillo", @"Guadalupe", nil];
         
-        self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre Acajete", @"Informacion sobre Alvarado", @"Informacion sobre Apazapan", @"Informacion sobre Catemaco", @"Informacion sobre Xalapa", nil];
+        self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre Zacatecas", @"Informacion sobre Villa Hidalgo", @"Informacion sobre Trancoso", @"Informacion sobre Fresnillo", @"Informacion sobre Guadalupe", nil];
         
-        self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"VerAcajete.jpg", @"VerAlvarado.jpg", @"VerApasapan.jpg", @"VerCatemaco.jpg", @"VerXalapa.jpg", nil];
+        self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"Zaca_Zacatecas.jpg", @"Zaca_VillaHidalgo.jpg", @"Zaca_Trancoso.jpg", @"Zaca_Fresnillo.jpg", @"Zaca_Guadalupe.jpg", nil];
     }
 
 }

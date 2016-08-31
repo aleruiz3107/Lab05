@@ -33,11 +33,11 @@
 }
 //-------------------------------------------------------------------------------
 - (void)initController {
-    self.StateTitles   = [[NSMutableArray alloc] initWithObjects: @"AGUASCALIENTES", @"CHIHUAHUA", @"PUEBLA", @"SINALOA", @"ZACATECAS", nil];
+    self.StateTitles   = [[NSMutableArray alloc] initWithObjects: @"LAVADO Y SECADO", @"CERAS Y SELLADORES", @"PULIDO", @"RINES Y MOTOR", @"ACCESORIOS", nil];
     
-    self.StateDescription   = [[NSMutableArray alloc] initWithObjects: @"Visita los municipios de Aguascalientes", @"Visita los municipios de Chihuahua", @"Visita los municipios de Puebla", @"Visita los municipios de Sinaloa", @"Visita los municipios de Zacatecas", nil];
+    self.StateDescription   = [[NSMutableArray alloc] initWithObjects: @"Conoce lo mejor para el Lavado", @"Las Mejores Seras y Selladores", @"Rayones pfff", @"Grasa en Rines desaste de el", @"Conoce todos nuestros accesorios", nil];
     
-    self.StatePhotos   = [[NSMutableArray alloc] initWithObjects: @"Aguascalientes.jpg", @"Chihuahua.jpg", @"Puebla.jpg", @"Sinaloa.jpg", @"Zacatecas.jpg", nil];
+    self.StatePhotos   = [[NSMutableArray alloc] initWithObjects: @"LavadoEncerado.jpg", @"CeraSelladores.jpg", @"Puebla.jpg", @"Sinaloa.jpg", @"Zacatecas.jpg", nil];
 
 }
 /**********************************************************************************************/

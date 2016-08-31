@@ -44,35 +44,35 @@
     }
     else if([self.StateTitleSelected  isEqual: @"CERAS Y SELLADORES"]){
         
-        self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Chihuahua", @"Chinipas", @"Delicias", @"Galeana", @"Santa Isabel", nil];
+        self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Poorboys Nattys Paste Wax", @"FinishKare 1000P Hi-Temp Sealant", nil];
         
-        self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre Chihuahua", @"Informacion sobre Chinipas", @"Informacion sobre Delicias", @"Informacion sobre Galeana", @"Informacion sobre Santa Isabel", nil];
+        self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre Poorboys Nattys Paste Wax", @"Informacion sobre FinishKare 1000P Hi-Temp Sealant", nil];
         
-        self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"Chi_Chihuahua.jpg", @"Chi_Chinipas.jpg", @"Chi_Delicias.jpg", @"Chi_Galeana.jpg", @"Chi_SantaIsabel.jpg", nil];
+        self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"NattysPasteWax.jpg", @"FinishKare100.jpg", nil];
     }
     else if([self.StateTitleSelected  isEqual: @"PULIDO"]){
         
-        self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Puebla", @"Ocotepec", @"Acajete", @"Tlahuapan", @"Zacatlan", nil];
+        self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"SONAX - Cut Max", @"Sonus Hand Polish Bundle", nil];
         
-        self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre Puebla", @"Informacion sobre Ocotepec", @"Informacion sobre Acajete", @"Informacion sobre Tlahuapan", @"Informacion sobre Zacatlan", nil];
+        self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre SONAX - Cut Max", @"Informacion sobre Sonus Hand Polish Bundle", nil];
         
-        self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"Pue_Puebla.jpg", @"Pue_Ocotepec.jpg", @"Pue_Acajete.jpg", @"Pue_Tlahuapan.jpg", @"Pue_Zacatlan.jpg", nil];
+        self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"CutMax.jpg", @"SonusHandPolish.jpg", nil];
     }
     else if([self.StateTitleSelected  isEqual:@"RINES Y MOTOR"]){
         
-        self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Culiacan", @"Sinaloa", @"Mazatlan", @"Angostura", @"Concordia", nil];
+        self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"SONAX Wheel Cleaner Plus", @"Dodo Juice - Mellow Yellow Wheel Cleaner", nil];
         
-        self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre Culiacan", @"Informacion sobre Sinaloa", @"Informacion sobre Mazatlan", @"Informacion sobre Angostura", @"Informacion sobre Concordia", nil];
+        self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre SONAX Wheel Cleaner Plus", @"Informacion sobre Dodo Juice - Mellow Yellow Wheel Cleaner", nil];
         
-        self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"Sina_Culiacan.jpg", @"Sina_Sinaloa.jpg", @"Sina_Mazatlan.jpg", @"Sina_Angostura.jpg", @"Sina_Concordia.jpg", nil];
+        self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"WheelCleaner.jpg", @"DodoWheelCleaner.jpg", nil];
     }
     else if([self.StateTitleSelected  isEqual:@"ACCESORIOS"]){
         
-        self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Zacatecas", @"Villa Hidalgo", @"Trancoso", @"Fresnillo", @"Guadalupe", nil];
+        self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"GYEON - Q2M Large Detailing Kit", @"Meguiars Foam Applicators Pkg/2", nil];
         
-        self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre Zacatecas", @"Informacion sobre Villa Hidalgo", @"Informacion sobre Trancoso", @"Informacion sobre Fresnillo", @"Informacion sobre Guadalupe", nil];
+        self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre GYEON - Q2M Large Detailing Kit", @"Informacion sobre Meguiars Foam Applicators Pkg/2", nil];
         
-        self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"Zaca_Zacatecas.jpg", @"Zaca_VillaHidalgo.jpg", @"Zaca_Trancoso.jpg", @"Zaca_Fresnillo.jpg", @"Zaca_Guadalupe.jpg", nil];
+        self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"BagKit.jpg", @"FoamApplicators.jpg", nil];
     }
 
 }

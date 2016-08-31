@@ -34,15 +34,15 @@
 }
 //-------------------------------------------------------------------------------
 - (void)initController {
-    if([self.StateTitleSelected  isEqual: @"AGUASCALIENTES"]){
+    if([self.StateTitleSelected  isEqual: @"LAVADO Y SECADO"]){
         
-    self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Aguascalientes", @"Asientos", @"Calvillo", @"Cosio", @"El Llano", nil];
+    self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"NXT Generation Car Wash", @"Optimum No Rinse - Wash & Wax", nil];
     
-    self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre Aguascalientes", @"Informacion sobre Asientos", @"Informacion sobre Calvillo", @"Informacion sobre Cosio", @"Informacion sobre El Llano", nil];
+    self.MunicipalityDescription   = [[NSMutableArray alloc] initWithObjects: @"Informacion sobre NXT Generation Car Wash", @"Informacion sobre Optimum No Rinse - Wash & Wax", nil];
     
-    self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"Agu_Aguascalientes", @"Agu_Asientos.jpg", @"Agu_Calvillo.jpg", @"Agu_Cosio.jpg", @"Agu_ElLlano.jpg", nil];
+    self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"MeguiarsNXT.jpg", @"OptimumWashWax.jpg", nil];
     }
-    else if([self.StateTitleSelected  isEqual: @"CHIHUAHUA"]){
+    else if([self.StateTitleSelected  isEqual: @"CERAS Y SELLADORES"]){
         
         self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Chihuahua", @"Chinipas", @"Delicias", @"Galeana", @"Santa Isabel", nil];
         
@@ -50,7 +50,7 @@
         
         self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"Chi_Chihuahua.jpg", @"Chi_Chinipas.jpg", @"Chi_Delicias.jpg", @"Chi_Galeana.jpg", @"Chi_SantaIsabel.jpg", nil];
     }
-    else if([self.StateTitleSelected  isEqual: @"PUEBLA"]){
+    else if([self.StateTitleSelected  isEqual: @"PULIDO"]){
         
         self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Puebla", @"Ocotepec", @"Acajete", @"Tlahuapan", @"Zacatlan", nil];
         
@@ -58,7 +58,7 @@
         
         self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"Pue_Puebla.jpg", @"Pue_Ocotepec.jpg", @"Pue_Acajete.jpg", @"Pue_Tlahuapan.jpg", @"Pue_Zacatlan.jpg", nil];
     }
-    else if([self.StateTitleSelected  isEqual:@"SINALOA"]){
+    else if([self.StateTitleSelected  isEqual:@"RINES Y MOTOR"]){
         
         self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Culiacan", @"Sinaloa", @"Mazatlan", @"Angostura", @"Concordia", nil];
         
@@ -66,7 +66,7 @@
         
         self.MunicipalityPhotos   = [[NSMutableArray alloc] initWithObjects: @"Sina_Culiacan.jpg", @"Sina_Sinaloa.jpg", @"Sina_Mazatlan.jpg", @"Sina_Angostura.jpg", @"Sina_Concordia.jpg", nil];
     }
-    else if([self.StateTitleSelected  isEqual:@"ZACATECAS"]){
+    else if([self.StateTitleSelected  isEqual:@"ACCESORIOS"]){
         
         self.MunicipalityTitles   = [[NSMutableArray alloc] initWithObjects: @"Zacatecas", @"Villa Hidalgo", @"Trancoso", @"Fresnillo", @"Guadalupe", nil];
         

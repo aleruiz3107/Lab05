@@ -36,6 +36,13 @@
 		4E7987051D271F1F003418A5 /* Zaca_VillaHidalgo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E7986E81D271F1F003418A5 /* Zaca_VillaHidalgo.jpg */; };
 		4E7987061D271F1F003418A5 /* Zaca_Zacatecas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E7986E91D271F1F003418A5 /* Zaca_Zacatecas.jpg */; };
 		4E7987071D271F1F003418A5 /* Zacatecas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E7986EA1D271F1F003418A5 /* Zacatecas.jpg */; };
+		4E87E7B31D768F4B002FBF0E /* CeraSelladores.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E87E7AF1D768F4B002FBF0E /* CeraSelladores.jpg */; };
+		4E87E7B41D768F4B002FBF0E /* LavadoEncerado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E87E7B01D768F4B002FBF0E /* LavadoEncerado.jpg */; };
+		4E87E7B51D768F4B002FBF0E /* Pulido.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E87E7B11D768F4B002FBF0E /* Pulido.jpg */; };
+		4E87E7B61D768F4B002FBF0E /* RinesMotor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E87E7B21D768F4B002FBF0E /* RinesMotor.jpg */; };
+		4E87E7B81D768FFD002FBF0E /* Accesorios.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E87E7B71D768FFD002FBF0E /* Accesorios.jpg */; };
+		4E87E7BB1D7698B0002FBF0E /* MeguiarsNXT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E87E7B91D7698B0002FBF0E /* MeguiarsNXT.jpg */; };
+		4E87E7BC1D7698B0002FBF0E /* OptimumWashWax.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E87E7BA1D7698B0002FBF0E /* OptimumWashWax.jpg */; };
 		8E4B02461D206A610050D50B /* cellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B02441D206A610050D50B /* cellHome.m */; };
 		8E4B02471D206A610050D50B /* cellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B02451D206A610050D50B /* cellHome.xib */; };
 		8E4B02671D2080B10050D50B /* Aguascalientes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B02491D2080B10050D50B /* Aguascalientes.jpg */; };
@@ -82,6 +89,13 @@
 		4E7986E81D271F1F003418A5 /* Zaca_VillaHidalgo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zaca_VillaHidalgo.jpg; sourceTree = "<group>"; };
 		4E7986E91D271F1F003418A5 /* Zaca_Zacatecas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zaca_Zacatecas.jpg; sourceTree = "<group>"; };
 		4E7986EA1D271F1F003418A5 /* Zacatecas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zacatecas.jpg; sourceTree = "<group>"; };
+		4E87E7AF1D768F4B002FBF0E /* CeraSelladores.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CeraSelladores.jpg; sourceTree = "<group>"; };
+		4E87E7B01D768F4B002FBF0E /* LavadoEncerado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LavadoEncerado.jpg; sourceTree = "<group>"; };
+		4E87E7B11D768F4B002FBF0E /* Pulido.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pulido.jpg; sourceTree = "<group>"; };
+		4E87E7B21D768F4B002FBF0E /* RinesMotor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RinesMotor.jpg; sourceTree = "<group>"; };
+		4E87E7B71D768FFD002FBF0E /* Accesorios.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Accesorios.jpg; sourceTree = "<group>"; };
+		4E87E7B91D7698B0002FBF0E /* MeguiarsNXT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MeguiarsNXT.jpg; sourceTree = "<group>"; };
+		4E87E7BA1D7698B0002FBF0E /* OptimumWashWax.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OptimumWashWax.jpg; sourceTree = "<group>"; };
 		8E4B02431D206A610050D50B /* cellHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellHome.h; sourceTree = "<group>"; };
 		8E4B02441D206A610050D50B /* cellHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellHome.m; sourceTree = "<group>"; };
 		8E4B02451D206A610050D50B /* cellHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellHome.xib; sourceTree = "<group>"; };
@@ -155,6 +169,13 @@
 		8E4B02481D2080B10050D50B /* img */ = {
 			isa = PBXGroup;
 			children = (
+				4E87E7B91D7698B0002FBF0E /* MeguiarsNXT.jpg */,
+				4E87E7BA1D7698B0002FBF0E /* OptimumWashWax.jpg */,
+				4E87E7B71D768FFD002FBF0E /* Accesorios.jpg */,
+				4E87E7AF1D768F4B002FBF0E /* CeraSelladores.jpg */,
+				4E87E7B01D768F4B002FBF0E /* LavadoEncerado.jpg */,
+				4E87E7B11D768F4B002FBF0E /* Pulido.jpg */,
+				4E87E7B21D768F4B002FBF0E /* RinesMotor.jpg */,
 				4E7986CE1D271F1F003418A5 /* Agu_Aguascalientes.jpg */,
 				4E7986CF1D271F1F003418A5 /* Agu_Asientos.jpg */,
 				4E7986D01D271F1F003418A5 /* Agu_Calvillo.jpg */,
@@ -291,12 +312,17 @@
 				4E7987041D271F1F003418A5 /* Zaca_Trancoso.jpg in Resources */,
 				4E7987011D271F1F003418A5 /* Sinaloa.jpg in Resources */,
 				4E7986F01D271F1F003418A5 /* Chi_Chihuahua.jpg in Resources */,
+				4E87E7B61D768F4B002FBF0E /* RinesMotor.jpg in Resources */,
 				4E7986FD1D271F1F003418A5 /* Sina_Concordia.jpg in Resources */,
 				4E7986F31D271F1F003418A5 /* Chi_Galeana.jpg in Resources */,
 				4E7987071D271F1F003418A5 /* Zacatecas.jpg in Resources */,
+				4E87E7B81D768FFD002FBF0E /* Accesorios.jpg in Resources */,
 				4E7986F91D271F1F003418A5 /* Pue_Tlahuapan.jpg in Resources */,
 				4E7986F81D271F1F003418A5 /* Pue_Puebla.jpg in Resources */,
+				4E87E7BB1D7698B0002FBF0E /* MeguiarsNXT.jpg in Resources */,
 				4E7986F71D271F1F003418A5 /* Pue_Ocotepec.jpg in Resources */,
+				4E87E7BC1D7698B0002FBF0E /* OptimumWashWax.jpg in Resources */,
+				4E87E7B31D768F4B002FBF0E /* CeraSelladores.jpg in Resources */,
 				4E7986FE1D271F1F003418A5 /* Sina_Culiacan.jpg in Resources */,
 				4E7986FB1D271F1F003418A5 /* Puebla.jpg in Resources */,
 				4E7986EF1D271F1F003418A5 /* Agu_ElLlano.jpg in Resources */,
@@ -308,12 +334,14 @@
 				4E7986FC1D271F1F003418A5 /* Sina_Angostura.jpg in Resources */,
 				8ED9AA3A1D205F7900ADE34F /* Assets.xcassets in Resources */,
 				8E4B028C1D2095DD0050D50B /* cellMunicipality.xib in Resources */,
+				4E87E7B51D768F4B002FBF0E /* Pulido.jpg in Resources */,
 				4E7987061D271F1F003418A5 /* Zaca_Zacatecas.jpg in Resources */,
 				4E7987051D271F1F003418A5 /* Zaca_VillaHidalgo.jpg in Resources */,
 				4E7987031D271F1F003418A5 /* Zaca_Guadalupe.jpg in Resources */,
 				4E7986ED1D271F1F003418A5 /* Agu_Calvillo.jpg in Resources */,
 				8E4B02471D206A610050D50B /* cellHome.xib in Resources */,
 				4E7986FA1D271F1F003418A5 /* Pue_Zacatlan.jpg in Resources */,
+				4E87E7B41D768F4B002FBF0E /* LavadoEncerado.jpg in Resources */,
 				4E7986F21D271F1F003418A5 /* Chi_Delicias.jpg in Resources */,
 				4E7986EE1D271F1F003418A5 /* Agu_Cosio.jpg in Resources */,
 				4E7986FF1D271F1F003418A5 /* Sina_Mazatlan.jpg in Resources */,
